@@ -5,7 +5,7 @@
 ###
 ### File:     GeoSpatialCaseRepresentation.r
 ###
-### Owner:    Dominik P.H. Kalisch (dominik@kalisch.biz)
+### Author:   Dominik P.H. Kalisch (dominik@kalisch.biz)
 ###           Based on an idea from Barry Rowlingson (barry@rowlingson.com)
 ###
 ### Desc.:    This script draws a map representing the amount of cases in a
