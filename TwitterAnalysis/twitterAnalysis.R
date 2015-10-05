@@ -4,8 +4,8 @@ library(SnowballC)
 library(tm)
 library(wordcloud)
 
-consumerKey <- "KEY_FROM_TWITTER"
-consumerSecret <- "SECRETKEY_FROM TWITTER"
+consumerKey <- "Qzfpe1WSN6vn3OOpXjIMJQ"
+consumerSecret <- "CosQtBzrT0mBCW97zeJgehMNoOiLIkxrctc3l4xBYXk"
 
 reqURL <- "https://api.twitter.com/oauth/request_token"
 accessURL <- "http://api.twitter.com/oauth/access_token"

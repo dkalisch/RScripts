@@ -1,0 +1,10 @@
+base
+ProjectTemplate
+reshape2
+plyr
+ggplot2
+stringr
+lubridate
+psych
+dplyr
+car

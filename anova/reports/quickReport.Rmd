@@ -1,0 +1,41 @@
+---
+title: "report"
+author: "Dominik P.H. Kalisch"
+date: "April 29, 2015"
+output: pdf_document
+---
+
+```{r setup,echo=FALSE,message=FALSE,include=TRUE,cache=TRUE}
+# Its a good idea to start any rmarkdown document with a block like this one to set knit defaults, setup the bibliography, and so forth.
+setwd("~/projects/RScripts/anova/")
+library(ProjectTemplate)
+load.project()
+source("src/anova.R")
+
+# This is also a good place to setup any ggplot2 themes for the document using ggplot2::theme_set()
+```
+
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+ERWaiting.summary
+```
+
+You can also embed plots, for example:
+
+```{r echo=FALSE}
+ERWaiting.aov.summary
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r echo=FALSE}
+bp
+```
+
+```{r echo=FALSE}
+pf
+```
