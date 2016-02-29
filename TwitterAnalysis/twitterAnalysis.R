@@ -3,9 +3,11 @@ library(ggplot2)
 library(SnowballC)
 library(tm)
 library(wordcloud)
+library(ROAuth)
+require(RCurl)
 
-consumerKey <- "Qzfpe1WSN6vn3OOpXjIMJQ"
-consumerSecret <- "CosQtBzrT0mBCW97zeJgehMNoOiLIkxrctc3l4xBYXk"
+consumerKey <- "XXXXXXXXXXXXXXXX"
+consumerSecret <- "XXXXXXXXXXXXXXXXXXXXXX"
 
 reqURL <- "https://api.twitter.com/oauth/request_token"
 accessURL <- "http://api.twitter.com/oauth/access_token"
